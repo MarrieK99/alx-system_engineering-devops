@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown betty if only echo "owned by" guillaume
+sudo chown  betty --reference = hello
