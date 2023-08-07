@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindepth 1 -type d -not -name "." -print | wc -l
+count=$(find . -type d -not -name "." -not -name ".." | wc -l)
