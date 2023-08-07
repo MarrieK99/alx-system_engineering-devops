@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown  betty --reference = hello
+sudo chown hello --reference = betty
