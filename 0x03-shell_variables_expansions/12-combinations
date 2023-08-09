@@ -1,0 +1,6 @@
+#!/bin/bash
+for ((i = 97; i <= 120; i++)); do
+    for ((j = 97; j < $i; j++)); do
+        echo -n "${i}${j}"
+    done
+done
